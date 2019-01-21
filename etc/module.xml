@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Color Status
+ *
+ * Set the each sales row with a background color on sales grid.
+ *
+ * @package Acodesh\Orderstatuscolor
+ * @author Yogendra Kumar <yogi@acodesh.com>
+ * @copyright Copyright (c) 2019 Yogendra Kumar (https://www.acodesh.com/)
+ * @license https://opensource.org/licenses/OSL-3.0.php Open Software License 3.0
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="Acodesh_Orderstatuscolor" setup_version="1.0.0">
+    	<sequence>
+            <module name="Acodesh_Backend"/>
+        </sequence>
+    </module>
+</config>

@@ -1,0 +1,8 @@
+div.page-columns .data-grid td { background-color: transparent !important; }
+.sales-order_status-edit .admin__field-control.control #color {
+	width: 80px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      height: 32px;
+}
